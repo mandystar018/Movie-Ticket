@@ -14,7 +14,18 @@ function Ticket(title, times, age){
 
 
 // User Interface Logic----------------
-$(document).ready(function(){
-  const  = parseInt($("").val();
-});
+// $(document).ready(function(){
+//   const userAge = $("#age").val();
+//   const oldMovies = parseInt($("#old-movies").val());
+//   const newMovies = parseInt($("#new-movies").val());
+// });
+
+$(function(){
+  var $select = $(".1-100");
+  for (i=1;i<=100;i++){
+      $select.append($('<option></option>').val(i).html(i))
+  }
+});​
+
+
  
