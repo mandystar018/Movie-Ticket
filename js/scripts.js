@@ -1,11 +1,13 @@
 // Business Logic 
-function Ticket(name, times, age){
-  this.name = name;
+function Ticket(title, times, age){
+  this.title = title;
   this.times = times;
   this.age = age;
 }
 
-
+// Ticket.prototype.price = function() {
+//   return this.name + " " + this.times + " " + this.age;
+// }
 
 
 
@@ -13,5 +15,6 @@ function Ticket(name, times, age){
 
 // User Interface Logic----------------
 $(document).ready(function(){
-
+  const  = parseInt($("").val();
 });
+ 
